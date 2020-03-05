@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import BasicForm from './components/BasicForm';
+import FirstComponent from './components/FirstComponent';
 
 
 const wrapper = document.getElementById("container");
-wrapper ? ReactDOM.render(<BasicForm />, wrapper) : false;
+wrapper ? ReactDOM.render(<FirstComponent />, wrapper) : false;
